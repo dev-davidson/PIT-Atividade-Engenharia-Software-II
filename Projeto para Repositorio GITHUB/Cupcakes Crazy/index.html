@@ -1,0 +1,240 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+    <title>Cupcake Crazy</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css"></noscript>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <script>
+        function fazerLogin() {
+            var email = document.getElementById("email").value;
+            var senha = document.getElementById("senha").value;
+
+    
+            if (email === "davidsonpereira27@gmail.com" && senha === "123") {
+                
+                window.location.href = "index.html";
+            } else {
+                alert("Email ou senha inválidos");
+            }
+        }
+    </script>
+    
+
+</head>
+<body class="is-preload">
+    <div id="wrapper">
+        <header id="header">
+            <div class="logo">
+                <span class="fa fa-shopping-basket" style="font-size:50px;"></span>
+            </div>
+            <div class="content">
+				<div class="inner">
+					<h1>Cupcake Crazy</h1>
+					<p>A doçura ao alcance de suas mãos! Você é apaixonado por cupcakes? 
+						Então, prepare-se para uma experiência deliciosamente incrível.<br>
+						Você terá acesso a um mundo de 
+						sabores e criatividade, tudo na palma da sua mão.</p>
+				</div>
+			</div>
+            <nav>
+                <ul>
+                    <li><a href="#login">Login</a></li>
+                    <li><a href="#intro">Sobre</a></li>
+                    <li><a href="#work">Sabores</a></li>
+                    <li><a href="#about">Downloads</a></li>
+                    <li><a href="#contact">Pedidos</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div id="main">
+
+            <article id="login">
+                <h2 class="major">Login</h2>
+        <div class="login">
+            <form onsubmit="event.preventDefault(); fazerLogin();">
+                <input type="text" id="email" placeholder="Email" required="required">
+                <input type="password" id="senha" placeholder="Senha" required="required">
+                <button type="submit" class="btn btn-primary btn-block btn-large" onclick="fazerLogin()">Logar</button>
+            </form>
+        </div>
+               
+                 <div class="centered-content">
+        <br><br><br><br><br>
+        <h6 class="section_title"><i class="icon icon-code"></i>Ou inscreva-se usando</h6>                         
+        <ul class="icons">
+            <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+            <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+            <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+            <li><a href="#" class="icon brands fa-google"><span class="label">Google</span></a></li>
+        </ul>
+    </div>
+            </article>
+
+            <article id="intro">
+                <h2 class="major">Sobre</h2>
+                <span class="image main"><img src="images/sobre1.PNG" alt=""></span>
+                <span class="image main"><img src="images/sobre2.png" alt=""></span>
+                <p>O App Cupcake Crazy é uma plataforma web que oferece uma variedade de recursos 
+                    relacionados aos cupcakes, desde receitas e personalização até interação com 
+                    uma comunidade de amantes de cupcakes. <a href="#work">Sabores</a>.</p>
+                <p>Com o App Cupcake Crazy, os usuários podem acessar uma extensa coleção de receitas de 
+                    cupcakes, incluindo opções clássicas e inovadoras. Cada receita é detalhada e 
+                    acompanhada de instruções passo a passo, juntamente com fotos inspiradoras. 
+                    Isso permite que os usuários cozinhem cupcakes deliciosos em sua própria cozinha, 
+                    seguindo orientações confiáveis.</p>
+            </article>
+
+			<article id="work">
+				<h2 class="major">Sabores</h2>
+				<div class="image main"><img src="images/sabores.PNG" alt=""></div>
+				<div class="flavors-text"></div>
+                <p>O App Cupcake Crazy é uma fonte incrível de inspiração quando se trata de sabores de cupcakes. 
+                    Ele oferece uma ampla variedade de opções de sabores, desde os clássicos até os mais criativos e 
+                    inovadores.<br> Aqui estão alguns exemplos de sabores de cupcakes que você pode encontrar no aplicativo:<br><br>
+                	<strong>Baunilha, Chocolate, Morango, Caramelo salgado, Red Velvet, Limão, Menta com chocolate.</strong><br><br>
+					Esses são apenas alguns exemplos, mas as possibilidades são infinitas! O App Cupcake Crazy oferece uma 
+                    ampla variedade de receitas e sugestões de sabores para que você possa explorar e experimentar. 
+                    Deixe sua criatividade fluir e crie combinações de sabores únicas para seus cupcakes.
+                </p>
+
+                <span class="image main"><img src="images/sabores1.PNG" alt=""></span>
+                <span class="image main"><img src="images/sabores2.PNG" alt=""></span>
+                <span class="image main"><img src="images/sabores3.PNG" alt=""></span>
+			</article>
+
+            <article id="about">
+                <h2 class="major">Downloads</h2>
+                <span class="image main"><img src="images/catalogo.PNG" alt=""></span>
+                <p>O App Cupcake Crazy também oferece recursos para Downloads do catálogo de produtos, 
+                    permitindo que os usuários marquem suas receitas favoritas para acesso fácil 
+                    e acompanhem suas aventuras culinárias.
+                </p>
+                <h4>Catálogo de produtos</h4>
+                <a href="https://drive.google.com/file/d/1OHEBB77s4kQsHeSQoZ4XNywS3yBbHfgS/view?usp=drive_link" target="_blank">🤎 Downloads</a><br><br>
+                <h4>Preparo de Cupcake</h4>
+                <a href="https://www.youtube.com/watch?v=BKxZ_tYpUKM" target="_blank">🤎 Video</a><br><br>
+                <h4>Efetuar pedidos</h4>
+                <a href="#contact">🤎 Pedidos</a>
+			</article>
+
+            <article id="contact">
+                <h2 class="major">Pedidos</h2>
+                <form method="post" action="#">
+                    <div class="fields">
+                        <div class="field half">
+                            <label for="name">Nome:</label>
+                            <input type="text" name="name" id="name">
+                        </div>
+                        <div class="field half">
+                            <label for="address">Endereço:</label>
+                            <input type="text" name="address" id="address">
+                        </div>
+                        <div class="field half">
+                            <label for="phone">Tel./WhatsApp:</label>
+                            <input type="text" name="phone" id="phone">
+                        </div>
+                        <div class="field half">
+                            <label for="product-code">Código do Produto:</label>
+                            <input type="text" name="product-code" id="product-code">
+                        </div>
+                        <div class="field half">
+                            <label for="quantity">Quantidade:</label>
+                            <input type="text" name="quantity" id="quantity">
+                        </div>
+                        <div class="field">
+                            <label for="message">Mensagem:</label>
+                            <textarea name="message" id="message" rows="4"></textarea>
+                        </div>
+                    </div>
+                    <ul class="actions">
+                        <li><input type="submit" onclick="alert('Obrigado pela preferência! Mensagem Enviada.')" 
+                            value="Enviar Mensagem" class="primary"></li>
+                        <li><input type="reset" value="Limpar"></li>
+                    </ul>
+                </form>
+                <ul class="icons">
+                    <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+                    <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+                    <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+                    <li><a href="#" class="icon brands fa-whatsapp"><span class="label">WhatsApp</span></a></li>
+                </ul>
+                <span class="image main"><img src="images/codigo.PNG" alt=""></span>
+                <span class="image main"><img src="images/saudaveis.png" alt=""></span>
+            </article>
+        </div>
+
+        <footer id="footer">
+            <div>
+        <div>
+            <h3>Assistente Virtual</h3>
+        </div>
+        <div id="chat-area"></div>
+        <div style="display: flex; justify-content: center;">
+            <input type="text" id="user-input" placeholder="👨‍💻 Digite sua mensagem" style="width: 200px;">
+            <button id="send-button">Enviar</button>
+            <button id="clear-button">Apagar</button>
+        </div>
+    </div>
+
+ <script>
+        document.getElementById('send-button').addEventListener('click', function () {
+            enviarMensagem();
+        });
+
+        document.getElementById('clear-button').addEventListener('click', function () {
+            limparChat();
+        });
+
+        function enviarMensagem() {
+            var userInput = document.getElementById('user-input').value;
+            if (userInput.trim() !== '') {
+                adicionarMensagem('👨‍💻 Você:', userInput);
+                document.getElementById('user-input').value = '';
+                // Aqui você pode chamar uma função para que o assistente virtual responda
+                responderAssistente(userInput);
+            }
+        }
+
+        function adicionarMensagem(nome, mensagem) {
+            var chatArea = document.getElementById('chat-area');
+            var mensagemDiv = document.createElement('div');
+            mensagemDiv.innerHTML = '<strong>' + nome + '</strong>: ' + mensagem;
+            chatArea.appendChild(mensagemDiv);
+            // Rolagem automática para a parte inferior do chat
+            chatArea.scrollTop = chatArea.scrollHeight;
+        }
+
+        function limparChat() {
+            document.getElementById('chat-area').innerHTML = '';
+        }
+
+        function responderAssistente(perguntaUsuario) {
+            // Aqui você pode adicionar a lógica do assistente virtual
+            // Por exemplo, pode usar uma API de processamento de linguagem natural para obter uma resposta
+            // Vou adicionar uma resposta simples como exemplo
+            var resposta = '🤖 Assistente: Entendi, você disse: "' + perguntaUsuario + '"';
+            adicionarMensagem('', resposta);
+        }
+    </script>
+
+
+            <br>
+            <p class="copyright">&copy; DAVIDSON OLIVEIRA. RGM: 23752041 <a href="https://www.cruzeirodosulvirtual.com.br">- 2023</a>.</p>
+        </footer>
+    </div>
+
+    <div id="bg"></div>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
+
